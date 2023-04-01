@@ -40,8 +40,6 @@ Tool for spawning, placing, and removing entities, inspired by Menyoo's Object S
 
 	 The path to permissions.cfg depends on where in the resources directory the resource is installed.
 
-	 The name of the resource folder must be `spooni_spooner`, otherwise players' saved databases will not be accessible.
-
 3. Restart the server.
 
 # Permissions
