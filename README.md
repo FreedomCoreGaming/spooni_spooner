@@ -2,6 +2,7 @@
 - Only RDR
 - Spooni Menu by https://github.com/i3ucky
 
+Original by https://github.com/kibook
 # -----------------------------------------
 # Spooner
 
