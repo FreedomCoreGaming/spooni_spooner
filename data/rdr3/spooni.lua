@@ -1,4 +1,6 @@
 Spooni = {
+	"house1",
+	"house1-stop-rainfall",
 	"house2",
 	"house2-stop-rainfall",
 	"house7",
@@ -28,7 +30,7 @@ Spooni = {
 	"store3-stop-rainfall",
 	"indihouse",
 	"aur_wikup_a_thatch",
-    "stall2",
+	"stall2",
 	"stall3",
 	"stall4",
 	"stall5",
