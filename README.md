@@ -19,7 +19,7 @@ Tool for spawning, placing, and removing entities, inspired by Menyoo's Object S
 
 # Example
 
-[![Spooner Example](https://i.imgur.com/HLzNYUIm.jpg)](https://imgur.com/HLzNYUI)
+[![Spooner Example](https://cdn.discordapp.com/attachments/1029131338466459678/1090718209461723207/image.png)]
 
 # Requirements
 
@@ -29,20 +29,18 @@ Tool for spawning, placing, and removing entities, inspired by Menyoo's Object S
 
 1. Place in the resources directory.
 
-2. Edit fxmanifest.lua and set the `gameName` variable to either `"gta5"` (for FiveM) or `"rdr3"` (for RedM).
-
-3. Add the following to server.cfg:
+2. Add the following to server.cfg:
 
    ```
-	 exec path/to/spooner/permissions.cfg
-	 ensure spooner
+	 exec path/to/spooni_spooner/permissions.cfg
+	 ensure spooni_spooner
 	 ```
 
 	 The path to permissions.cfg depends on where in the resources directory the resource is installed.
 
-	 The name of the resource folder must be `spooner`, otherwise players' saved databases will not be accessible.
+	 The name of the resource folder must be `spooni_spooner`, otherwise players' saved databases will not be accessible.
 
-4. Restart the server.
+3. Restart the server.
 
 # Permissions
 
@@ -64,7 +62,7 @@ add_ace group.admin spooner.delete.other allow
 
 The above configuration would allow all users to spawn a limited number of entities, and only modify or delete the objects they spawn, while an admin can spawn any number of entities and modify or delete other players' entities.
 
-If you need to change any permissions while the server is running, after adding/removing any spooner-related aces, run `spooner_refresh_perms` to refresh the permissions on all clients, or restart the resource.
+If you need to change any permissions while the server is running, after adding/removing any spooner-related aces, restart the resource.
 
 # Usage
 
@@ -146,7 +144,7 @@ The **Import/Export** menu allows you to import and export databases in a number
 |--------|-------------|---------|---------|
 | Spooner DB JSON | The native format used by the spooner | Yes | Yes |
 | Map Editor XML | XML format used by the [Lambdarevolution map editor](https://allmods.net/red-dead-redemption-2/tools-red-dead-redemption-2/rdr2-map-editor-v0-10/) and the [objectloader](https://github.com/kibook/redm-objectloader) resource | Yes | No |
-| Ymap | Native map format used by GTA V/RDR2 | Yes | No |
+| Ymap | Native map format used by RDR2 | Yes | No |
 | propplacer JSON | [RedEM:RP propplacer](https://github.com/RedEM-RP/redemrp_propplacer) JSON database | Yes | No |
 | Spooner Backup | Backup of all spooner databases | Yes | Yes |
 
