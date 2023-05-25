@@ -3456,9 +3456,6 @@ local function drawEntityHandles()
 				drawEntityHandle("object", object, camCoords)
 			end
 
-			for spooni in enumerateSpooni() do
-				drawEntityHandle("spooni", spooni, camCoords)
-			end
 		end
 	end
 end
