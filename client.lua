@@ -1920,7 +1920,7 @@ function ConvertDatabaseToYmap(database)
 			local flags = 1572865
 
 			if properties.isFrozen then
-				flags = flags + 7
+				flags = flags + 32
 			end
 
 			entitiesXml = entitiesXml .. '\t\t<Item type="CEntityDef">\n'
@@ -1994,7 +1994,7 @@ function ConvertDatabaseToMlo(database)
 			local flags = 1572865
 
 			if properties.isFrozen then
-				flags = flags + 7
+				flags = flags + 32
 			end
                         
 
