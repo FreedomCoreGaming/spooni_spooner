@@ -28,6 +28,7 @@ Spooni = {
 	"house36",
 	"house39",
 	"house40",
+	"house47",
 	"house49",
 	"turmhouse",
 	"schoolhouse",
